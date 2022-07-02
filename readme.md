@@ -10,10 +10,19 @@ Node v14 (recommend v14.18.2)
 ```bash
 # run on /
 npm install
+# run on /frontend
+cd frontend
+npm install
 ```
 
 ## Start backend server (express-mongo)
 ```bash
 # run on /
 npm run server
+```
+
+## Start frontend server (react-redux)
+```bash
+# run on /
+npm run client
 ```
